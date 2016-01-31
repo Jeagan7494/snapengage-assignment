@@ -8,27 +8,20 @@
     </head>
     <body ng-controller="mainController">
 
-    <div class="">
-        <div class="">
-            <table class="leftalign" style="width:50%">
-                <tr class="leftalign">
-                <td class="leftalign">Rep Alias</td>
-                <td class="leftalign">Survey Score</td>
-                </tr>
+                <div>
 
-            </table>
-            <div ng-repeat="object in mappedObjects1"  class="">
-                <div >
                     <table class="leftalign" style="width:50%">
                         <tr class="leftalign">
+                            <td class="leftalign">Rep Alias</td>
+                            <td class="leftalign">Survey Score</td>
+                        </tr>
+                        <tr ng-repeat="object in mappedObjects1" class="leftalign">
                             <td class="leftalign">{{object.repId}}</td>
                             <td class="leftalign pull-left" >{{object.score}}</td>
                         </tr>
                     </table>
                 </div>
-            </div>
-        </div>
-    </div>
+
 
     <script type="text/javascript" src="snapEngage.js"></script>
     </body>
