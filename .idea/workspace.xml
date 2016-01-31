@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="25202b46-985c-46f9-8840-73dc11a988a7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/snapEngage.css" afterPath="$PROJECT_DIR$/snapEngage.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/snapEngage.js" afterPath="$PROJECT_DIR$/snapEngage.js" />
     </list>
     <ignored path="snapengage-assignment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,23 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="snapEngage.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="snapEngage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/snapEngage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="52490" column="42" selection-start-line="52490" selection-start-column="42" selection-end-line="52490" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.4964029">
+              <caret line="52495" column="0" selection-start-line="52495" selection-start-column="0" selection-end-line="52495" selection-end-column="0" />
               <folding>
-                <element signature="e#184#2451449#0" expanded="false" />
+                <element signature="e#192#2661281#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4642857">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -50,8 +52,8 @@
       <file leaf-file-name="snapEngage.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/snapEngage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,9 +67,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/snapEngage.js" />
-        <option value="$PROJECT_DIR$/snapEngage.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/snapEngage.css" />
+        <option value="$PROJECT_DIR$/snapEngage.js" />
       </list>
     </option>
   </component>
@@ -77,9 +79,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="220" />
+    <option name="x" value="735" />
     <option name="y" value="23" />
-    <option name="width" value="1261" />
+    <option name="width" value="765" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -195,10 +197,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="220" y="23" width="1261" height="797" extended-state="0" />
+    <frame x="735" y="23" width="765" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24274194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24274194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -229,7 +231,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#184#2451449#0" expanded="false" />
+            <element signature="e#192#2661281#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -246,28 +248,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/snapEngage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snapEngage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52490" column="42" selection-start-line="52490" selection-start-column="42" selection-end-line="52490" selection-end-column="42" />
-          <folding>
-            <element signature="e#184#2451449#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4642857">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snapEngage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4964029">
+          <caret line="52495" column="0" selection-start-line="52495" selection-start-column="0" selection-end-line="52495" selection-end-column="0" />
+          <folding>
+            <element signature="e#192#2661281#0" expanded="false" />
           </folding>
         </state>
       </provider>

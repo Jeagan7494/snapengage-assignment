@@ -9,13 +9,12 @@
     <body ng-controller="mainController">
 
                 <div>
-
-                    <table class="leftalign" style="width:50%">
-                        <tr class="leftalign">
+                    <table style="width:50%">
+                        <tr>
                             <td class="leftalign">Rep Alias</td>
                             <td class="leftalign">Survey Score</td>
                         </tr>
-                        <tr ng-repeat="object in mappedObjects1" class="leftalign">
+                        <tr ng-repeat="object in mappedObjects1">
                             <td class="leftalign">{{object.repId}}</td>
                             <td class="leftalign pull-left" >{{object.score}}</td>
                         </tr>
