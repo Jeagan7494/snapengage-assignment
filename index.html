@@ -10,15 +10,21 @@
 
     <div class="">
         <div class="">
+            <table class="leftalign" style="width:50%">
+                <tr class="leftalign">
+                <td class="leftalign">Rep Alias</td>
+                <td class="leftalign">Survey Score</td>
+                </tr>
+
+            </table>
             <div ng-repeat="object in mappedObjects1"  class="">
                 <div >
-                    <table style="width:100%">
-                        <tr>
-                            <td>{{object.repId}}</td>
-                            <td>{{object.score}}</td>
+                    <table class="leftalign" style="width:50%">
+                        <tr class="leftalign">
+                            <td class="leftalign">{{object.repId}}</td>
+                            <td class="leftalign pull-left" >{{object.score}}</td>
                         </tr>
                     </table>
-                    <!--<div class= "craftTitle">{{object.craftName}}</div>-->
                 </div>
             </div>
         </div>
