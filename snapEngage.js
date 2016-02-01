@@ -52513,21 +52513,7 @@ angular.module('snapengage').controller('mainController', ['$scope',  function($
 
             }
         });
-        //mappedObjects.sort(function(a, b) {
-        //
-        //    return b.score - a.score
-        //});
 
-    //mappedObjects1.sort(function(a, b) {
-    //    if(a.repId > b.repId) {
-    //        return 1;
-    //    } else if (b.repId > a.repId){
-    //        return -1;
-    //    } else {
-    //        return 0;
-    //    }
-    //    //return a.repId - b.repId
-    //});
 
     console.log(mappedObjects);
 
