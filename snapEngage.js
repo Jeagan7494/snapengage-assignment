@@ -52467,12 +52467,12 @@ angular.module('snapengage').controller('mainController', ['$scope',  function($
 
     function ChatSession(data) {
         if(data.transcript && data.transcript[1] && data.transcript[1].alias){
-            //this.duration = data.chat_duration;
+            this.duration = data.chat_duration;
             this.score = data.survey_score;
             this.repId = data.transcript[1].alias;
         }
         else {
-            //this.duration = data.chat_duration;
+            this.duration = data.chat_duration;
             this.score = data.survey_score;
             this.repId = "Unknown";
         }
@@ -52490,9 +52490,33 @@ angular.module('snapengage').controller('mainController', ['$scope',  function($
 
     $scope.mappedObjects1 =
         mappedObjects.sort(function(a, b) {
+            if(a.score === b.score){
+                //if(a.repId > b.repId) {
+                //    return 1;
+                //} else if (b.repId > a.repId){
+                //    return -1;
+                //} else {
+                //    return 0;
+                //}
 
-            return b.score - a.score
+                if(a.duration > b.duration) {
+                    return 1;
+                } else if (b.duration > a.duration){
+                    return -1;
+                } else {
+                    return 0;
+                }
+                }
+
+            else {
+                return b.score - a.score;
+
+            }
         });
+        //mappedObjects.sort(function(a, b) {
+        //
+        //    return b.score - a.score
+        //});
 
     //mappedObjects1.sort(function(a, b) {
     //    if(a.repId > b.repId) {
